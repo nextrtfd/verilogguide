@@ -1,0 +1,64 @@
+/* Custom CSS for Verilog Design Guide */
+
+/* Premium Typography */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono&display=swap');
+
+body {
+    font-family: 'Inter', "Helvetica Neue", Arial, sans-serif !important;
+}
+
+code, kbd, pre, samp {
+    font-family: 'JetBrains Mono', "Courier New", Courier, monospace !important;
+}
+
+/* Sidebar Styling */
+.wy-side-nav-search {
+    background-color: #2980B9 !important;
+}
+
+.wy-menu-vertical a:hover {
+    background-color: rgba(41, 128, 185, 0.1) !important;
+    transition: background-color 0.3s ease;
+}
+
+/* Code Block Enhancements */
+.highlight {
+    background: #1e1e1e !important;
+    border-radius: 8px !important;
+    padding: 10px !important;
+    margin-bottom: 20px !important;
+    border: 1px solid #333 !important;
+}
+
+.highlight pre {
+    color: #d4d4d4 !important;
+}
+
+/* Copy Button Styling */
+button.copybtn {
+    opacity: 0.8 !important;
+    border-radius: 4px !important;
+    background-color: #444 !important;
+    border: none !important;
+    transition: opacity 0.3s ease !important;
+}
+
+button.copybtn:hover {
+    opacity: 1 !important;
+}
+
+/* Admonition/Alert Enhancements */
+.admonition {
+    border-radius: 8px !important;
+    border: none !important;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05) !important;
+}
+
+.admonition-title {
+    border-radius: 8px 8px 0 0 !important;
+}
+
+/* Responsive Table Styling */
+.wy-table-responsive table td, .wy-table-responsive table th {
+    white-space: normal !important;
+}
