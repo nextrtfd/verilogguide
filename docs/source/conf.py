@@ -34,7 +34,8 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
-html_baseurl = 'https://verilogguide.readthedocs.io/latest/en'
+# -- Options for sitemap
+html_baseurl = 'https://verilogguide.readthedocs.io/en/latest/'
 sitemap_url_scheme = "{link}"
 
 html_static_path = ['_static']
