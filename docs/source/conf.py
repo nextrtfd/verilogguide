@@ -17,7 +17,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_sitemap',
     'sphinx_copybutton',
     'sphinx_design',
     'sphinxext.opengraph',
